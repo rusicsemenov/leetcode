@@ -1,0 +1,19 @@
+{
+    "name": "leetcode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "eslint": "^10.8.0",
+        "prettier": "^3.9.6",
+        "vitest": "^4.1.10",
+        "typescript": "^5.5.3"
+    },
+    "private": true
+}
