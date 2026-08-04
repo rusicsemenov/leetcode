@@ -97,8 +97,6 @@ const stoneGameIII = function (stoneValue: number[]): 'Alice' | 'Bob' | 'Tie' {
         }
     }
 
-    console.log({ dp, stoneValue });
-
     if (dp[0] > 0) return 'Alice';
     if (dp[0] < 0) return 'Bob';
     return 'Tie';
